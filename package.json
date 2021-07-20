@@ -1,22 +1,21 @@
 {
-  "name": "sixfootsixdesigns-react-library-boilerplate",
+  "name": "react-user-annotations",
   "license": "MIT",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": false,
-  "description": "React Typescript Library Boilerplate",
-  "author": "James Olson",
-  "homepage": "https://github.com/sixfootsixdesigns/React-Library-Boilerplate",
+  "description": "React component for user generated annotations/notes on pages",
+  "author": "Shawn Harvell",
+  "homepage": "https://github.com/shawnharvell/react-user-annotations",
   "bugs": {
-    "url": "https://github.com/sixfootsixdesigns/React-Library-Boilerplate/issues"
+    "url": "https://github.com/shawnharvell/react-user-annotations/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sixfootsixdesigns/React-Library-Boilerplate.git"
+    "url": "git+https://github.com/shawnharvell/react-user-annotations.git"
   },
   "scripts": {
     "build": "yarn clean; rollup -c",
     "clean": "rimraf dist",
-    "dev": "yarn storybook",
     "format": "prettier --write \"src/**/*.{ts,tsx,json,js,jsx}\"",
     "format:check": "prettier --list-different \"src/**/*.{ts,tsx,json,js,jsx}\"",
     "lint": "yarn lint:script && yarn lint:style",
@@ -61,7 +60,6 @@
     "@typescript-eslint/eslint-plugin": "^4.8.1",
     "@typescript-eslint/parser": "^4.8.1",
     "babel-loader": "^8.2.1",
-    "classnames": "^2.2.6",
     "conventional-changelog-conventionalcommits": "^4.4.0",
     "css-loader": "^5.0.1",
     "eslint": "^7.14.0",
