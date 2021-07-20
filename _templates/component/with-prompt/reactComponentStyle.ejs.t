@@ -1,3 +1,3 @@
 ---
-to: src/components/<%= h.changeCase.pascalCase(name) %>/<%= h.changeCase.camelCase(name) %>.scss
+to: src/components/<%= h.changeCase.paramCase(name) %>/<%= h.changeCase.paramCase(name) %>.scss
 ---

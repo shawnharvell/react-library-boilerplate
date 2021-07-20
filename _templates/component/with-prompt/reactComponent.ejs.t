@@ -1,5 +1,5 @@
 ---
-to: src/components/<%= h.changeCase.pascalCase(name)  %>/<%= h.changeCase.pascalCase(name)  %>.tsx
+to: src/components/<%= h.changeCase.paramCase(name)  %>/<%= h.changeCase.paramCase(name)  %>.tsx
 ---
 import React from 'react';
 import './<%= h.changeCase.camelCase(name) %>.scss';

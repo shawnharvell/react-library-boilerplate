@@ -1,5 +1,5 @@
 ---
-to: src/components/<%= h.changeCase.pascalCase(name) %>/index.ts
+to: src/components/<%= h.changeCase.paramCase(name) %>/index.ts
 ---
 
-export * from './<%= h.changeCase.pascalCase(name) %>';
+export * from './<%= h.changeCase.paramCase(name) %>';
